@@ -1,0 +1,153 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.main_logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem !important;
+}
+.navbar {
+  justify-content: center;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar ul li a {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.custom-nav {
+  display: flex;
+  gap: 8rem;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.banner1 {
+  height: 100%;
+}
+
+.banner {
+  display: flex;
+  margin: 1rem 0 !important;
+}
+
+.banner img {
+  box-sizing: border-box;
+  padding: 5px !important;
+}
+
+.featured {
+  background-color: rgb(221, 100, 120);
+  padding: 0.5rem !important;
+  margin: 1rem 0 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.main img {
+  border-radius: 50%;
+  width: 80%;
+  margin: 1rem auto !important;
+}
+
+.card {
+  padding: 1rem 0 1rem 1rem !important;
+  background-color: rgb(252, 240, 240);
+  text-align: center;
+  margin: 0 1rem 0 0 !important;
+}
+
+.content {
+  text-align: center;
+}
+
+.para1 {
+  margin: 2rem 0 !important;
+  box-sizing: border-box;
+  padding: 1rem !important;
+}
+
+.content {
+  line-height: 2rem;
+  word-spacing: 0.8rem;
+}
+
+footer {
+  background-color: black;
+}
+
+.connect {
+  color: rgb(241, 136, 171);
+  font-size: 1.6rem;
+  padding-top: 0.5rem !important;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem !important;
+  padding: 0.5rem !important;
+}
+.icons img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.9rem;
+  padding-bottom: 1rem !important;
+}
+
+.copy_sub {
+  color: rgb(123, 153, 13);
+}
+
+@media (max-width: 575px) {
+  .main_logo {
+    width: 100vw;
+    justify-content: space-between !important;
+    margin-top: 1.5rem !important;
+    padding: 0 1.5rem !important;
+  }
+  .navbar {
+    position: absolute;
+    width: 100%;
+  }
+
+  .banner {
+    padding-top: 6rem !important;
+  }
+
+  .custom-nav {
+    background-color: rgb(172, 164, 164);
+    padding: 1.5rem 0 !important;
+    gap: 3rem;
+  }
+
+  .card {
+    margin: 0.8rem !important;
+  }
+}
